@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1072370297958",
+    "firebase_url": "https://insul-in-default-rtdb.firebaseio.com",
+    "project_id": "insul-in",
+    "storage_bucket": "insul-in.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072370297958:android:8aa7eb6ccf5609c90691a7",
+        "android_client_info": {
+          "package_name": "com.insulin.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072370297958-di11t27ho795khkvfvgp6lcbt3gm6m6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insulin.app",
+            "certificate_hash": "82dd2a43789843ac9603ee67368fd4adad3e65e4"
+          }
+        },
+        {
+          "client_id": "1072370297958-k6bnb4dg7o836fuivnrgtvbqo4dddeq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insulin.app",
+            "certificate_hash": "c3ee9387df36483cb5c474316349a80b0941230d"
+          }
+        },
+        {
+          "client_id": "1072370297958-f857b28dk6rqvneca3h4e2d96g7snmsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUml5AVPrn6El4m41jecej36QG5eaguoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072370297958-f857b28dk6rqvneca3h4e2d96g7snmsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Insulin" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Insulin.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splashscreen_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/primary_light</item>
+        <item name="postSplashScreenTheme">@style/Theme.Insulin</item>
+        <item name="windowSplashScreenBackground">@color/primary_dark</item>
+    </style>
+
+    <style name="Theme.Insulin.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Insulin.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TableResult">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:weightSum">10</item>
+    </style>
+
+    <style name="TextTableResult">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+
+        <item name="android:textColor">@color/black</item>
+        <item name="android:padding">@dimen/table_padding</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextTableResultHeader" parent="TextTableResult">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">7</item>
+    </style>
+
+    <style name="TextTableResultBody" parent="TextTableResult">
+        <item name="android:layout_weight">3</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="TextSubTitle" parent="TextTitle">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextTitle.Secondary">
+        <item name="android:textColor">@color/grey_darker</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@color/grey_darker</item>
+    </style>
+
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="roundedImageView.16" parent="roundedImageView">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="roundedImageView.8" parent="roundedImageView">
+        <item name="cornerSize">8dp</item>
+    </style>
+
+    <style name="Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Button.Profile" parent="Button">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:drawableTint" tools:ignore="NewApi">@color/grey_dark</item>
+        <item name="android:background">@drawable/button_grey</item>
+    </style>
+
+    <style name="Button.Danger" parent="Button">
+        <item name="android:textColor">@color/state_danger_dark</item>
+        <item name="android:background">@drawable/button_danger</item>
+    </style>
+
+    <style name="Button.Success" parent="Button">
+        <item name="android:textColor">@color/state_success_dark</item>
+        <item name="android:background">@drawable/button_success</item>
+    </style>
+
+    <style name="Button.Warning" parent="Button">
+        <item name="android:textColor">@color/state_warning_dark</item>
+        <item name="android:background">@drawable/button_warning</item>
+    </style>
+
+    <style name="Button.Primary" parent="Button">
+        <item name="android:textColor">@color/state_primary_dark</item>
+        <item name="android:background">@drawable/button_primary</item>
+    </style>
+
+    <style name="IndicatorOnBoarding">
+        <item name="android:layout_width">12dp</item>
+        <item name="android:layout_height">12dp</item>
+        <item name="android:src">@drawable/ic_onboarding_indicator</item>
+    </style>
+
+    <style name="IndicatorOnBoarding.Active" parent="IndicatorOnBoarding">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:tint">@color/primary</item>
+    </style>
+
+
+    <style name="Button.Grey" parent="Button">
+        <item name="android:textColor">@color/grey_dark</item>
+        <item name="android:background">@drawable/button_grey</item>
+    </style>
+</resources>
